@@ -1,4 +1,5 @@
-﻿using RestSharp;
+﻿using GitHubApiTests;
+using RestSharp;
 using RestSharp.Authenticators;
 using System.Text.Json;
 
@@ -6,11 +7,11 @@ namespace RestSharpDemoProject
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public void Main(string[] args)
         {
             RestClient client = new RestClient("https://api.github.com");
 
-            client.Authenticator = new HttpBasicAuthenticator("Kameliya-M", "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");
+            client.Authenticator = new HttpBasicAuthenticator("Kameliya-M", "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");
 
             RestRequest request = new RestRequest("/repos/{user}/{repoName}/issues", Method.Post);
             var issueBody = new

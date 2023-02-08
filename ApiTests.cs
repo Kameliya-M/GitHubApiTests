@@ -12,7 +12,7 @@ namespace GitHubApiTests
         private const string baseUrl = "https://api.github.com";
         private const string partialUrl = "repos/Kameliya-M/Postman/issues";
         private const string username = "Kameliya-M";
-        private const string password = "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";
+        private const string password = "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";
 
         [SetUp] 
         public void SetUp()
