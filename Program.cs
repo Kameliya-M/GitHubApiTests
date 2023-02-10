@@ -11,7 +11,7 @@ namespace RestSharpDemoProject
         {
             RestClient client = new RestClient("https://api.github.com");
 
-            client.Authenticator = new HttpBasicAuthenticator("Kameliya-M", "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");
+            client.Authenticator = new HttpBasicAuthenticator("Kameliya-M", "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");
 
             RestRequest request = new RestRequest("/repos/{user}/{repoName}/issues", Method.Post);
             var issueBody = new

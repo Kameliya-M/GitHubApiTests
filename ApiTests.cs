@@ -12,7 +12,7 @@ namespace GitHubApiTests
         private const string baseUrl = "https://api.github.com";
         private const string partialUrl = "repos/Kameliya-M/Postman/issues";
         private const string username = "Kameliya-M";
-        private const string password = "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";
+        private const string password = "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";
 
         [SetUp] 
         public void SetUp()
@@ -118,7 +118,7 @@ namespace GitHubApiTests
 
         public void Test_DeleteIssue()
         {
-
+          
         }
 
         [TestCase("US", "90210", "United States")]
