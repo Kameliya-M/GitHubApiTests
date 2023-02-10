@@ -2,7 +2,7 @@ using System.Text.Json;
 using RestSharp;
 using System.Net;
 using RestSharp.Authenticators;
-using RestSharp.Serializers;
+//using RestSharp.Serializers;
 
 namespace GitHubApiTests
 {
@@ -12,7 +12,7 @@ namespace GitHubApiTests
         private const string baseUrl = "https://api.github.com";
         private const string partialUrl = "repos/Kameliya-M/Postman/issues";
         private const string username = "Kameliya-M";
-        private const string password = "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";
+        private const string password = "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";
 
         [SetUp] 
         public void SetUp()
